@@ -1,0 +1,26 @@
+.margin_5{ margin-top:7px; width:30px; height:30px;}
+.padding_10{ padding-bottom:10px;}
+.margin_3{ margin-top:2px;}
+.margin15{ margin-top:10px;}
+.padding20{ padding:20px;}
+.table > tbody > tr > td{  vertical-align:middle}
+.myform{ padding:15px; border:1px solid #ccc; border-top:none;}
+
+
+
+
+
+/*作业*/
+
+.topBackgroundColor{ background:#2d3e50; color:#2d3e4e; margin-bottom:0px; border:none; border-radius:0;}
+.headerBackgroundColor{ background:#6f5499; color:#fff; height:740px;}
+.bannerBackgroundColor{ background:#6f5499; height:665px;}
+.contentHeight{ height:725px;}
+.inputHeight{ height:775px;}
+.hr{ width:250px;}
+.fontSize{ font-weight:bolder; font-size:16px; letter-spacing:1px;}
+.margin_110{ margin-top:110px;}
+.margin_100{ margin-top:100px;}
+.margin_120{ margin-top:120px;}
+.margin_107{ margin-top:107px;}
+.img_height{ height:540px}

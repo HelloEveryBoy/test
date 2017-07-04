@@ -1,0 +1,436 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    position: fixed;
+    width:100%;
+    height:70px;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand{
+    color: #333;
+    text-shadow: 1px 1px #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding:12px 0;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent;
+    color: #E3AE57;
+}
+#about, #service, #experience, #education, #contact {
+    position: relative;
+}
+
+#home .col-md-6 {
+    background: #f1e2d7;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#home .home-img {
+    background: url(../images/home-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100vh;
+}
+
+#home .home-thumb{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 45px 0 45px;
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 22px;
+}
+.welcome{
+    width:473px;
+    height:417px;
+}
+#home h4 {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+#home h1 {
+    padding-bottom: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+}
+
+p{
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 0 0 10px;
+}
+
+.mybtn{
+    background-color: transparent;
+    border: 3px solid #232B2B;
+    border-radius: 100px;
+    color: #232B2B;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    padding: 12px 36px;
+    margin-top: 42px;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+}
+.mybtn:hover{
+    background-color: #E3AE57;
+    color:#fff;
+    border:3px solid transparent;
+}
+
+#about .about-thumb, #about .skill-thumb {
+    padding: 22px 32px 32px 32px;
+}
+
+#about h1{
+    font-size: 42px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 1.1;
+}
+
+.color-yellow {
+    color: #E3AE57;
+}
+
+#about .about-img {
+    background: url(../images/about-img.jpg) no-repeat;
+}
+
+
+.background-image {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    min-height: 75vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bg-yellow {
+    background: #E3AE57;
+}
+
+.color-white {
+    color: #ffffff;
+}
+#about h1 {
+    font-size: 42px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+#about strong, #about span {
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+#about .progress {
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 2px;
+}
+
+#about .progress-bar-primary {
+    background: #232B2B;
+    font-size: 12px;
+}
+
+#service {
+    background: #E9724C;
+    text-align: center;
+    position: relative;
+}
+
+
+#home .container, #about .container, #experience .container, #service .container, #education .container, #contact .container {
+    width: 100%;
+}
+
+
+.bg-yellow {
+    background: #E3AE57;
+}
+
+#service .service-thumb {
+    padding: 52px 22px 55px 22px;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+#service .service-thumb .fa {
+    font-size: 42px;
+    padding-bottom: 22px;
+}
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+}
+
+
+h3 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 6px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#service p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bg-dark {
+    background: #161616;
+}
+
+.bg-white {
+    background: #ffffff;
+}
+
+#experience .experience-img {
+    background: url(../images/experience-img.jpg) no-repeat;
+}
+
+#experience, #education {
+    background: #E9724C;
+}
+
+#experience .experience-thumb, #education .education-thumb {
+    padding: 22px 42px 44px 42px;
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 22px;
+}
+
+#experience .fa {
+    font-size: 42px;
+    margin-right: 14px;
+}
+
+#education {
+    background: #E3AE57;
+}
+
+#education .fa {
+    font-size: 42px;
+    margin-right: 14px;
+}
+
+#education .education-img {
+    background: url(../images/education-img.jpg) no-repeat;
+}
+
+@media only screen and (max-width: 767px){
+    .background-image {
+        position: relative;
+    }
+    .col-md-3,.col-sm-6{
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+#quotes {
+    background: url(../images/quotes-bg.jpg) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+}
+
+#quotes .overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+#quotes .fa {
+    font-size: 42px;
+    margin-top: 32px;
+    margin-bottom: 22px;
+}
+
+#quotes h2{
+    font-size: 42px;
+}
+
+#quotes p {
+    padding-top: 32px;
+}
+
+#contact .left,#contact .right{
+    padding: 22px 32px 22px 32px;
+    min-height: 75vh;
+}
+
+.bg-color{
+    background: #E9724C;
+}
+
+#contact h1 {
+    font-size: 42px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+
+#contact .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #E3AE57;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact input {
+    height: 45px;
+}
+
+.mybtn{
+    background: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: #161616;
+    padding-bottom: 10px;
+}
+
+.mybtn:hover{
+    color:#fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+#contact .contact-img {
+    background: url(../images/contact-img.jpg) no-repeat;
+    min-height: 75vh;
+}
+
+#contact .fa {
+    padding-right: 10px;
+}
+
+a {
+    color: #E3AE57;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #E3AE57;
+}
+
+footer {
+    padding: 140px 0px;
+}
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    border: 2px solid transparent;
+    color: #999;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 4px 10px 4px;
+}
+
+.social-icon li a:hover{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E3AE57;
+    font-size: 18px;
+}

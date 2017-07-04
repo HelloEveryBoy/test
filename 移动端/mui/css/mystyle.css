@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: "微软雅黑";
+    font-size:14px;
+    min-height: 100%;
+    background: #f4f4f4;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{ text-decoration: none;}
+img{
+    display: block;
+    border: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+#top{
+    height:88px;
+}
+
+#header{
+    background: #ffa827;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height: 44px;
+}
+
+.mui-scroll-wrapper{
+    height:44px;
+    top:44px;
+    background: #fffaf4;
+    position: fixed;
+}
+
+.mui-active{
+    color: #ffa827;
+}
+
+
+#top .mui-scroll-wrapper .mui-scroll a{
+    line-height: 44px;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.myicon{
+    padding: 10px;
+}
+
+#header a,h1{
+    color:#fff;
+}
+
+#header a{
+    margin: 10px;
+}
+
+#header h1{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    right: 40px;
+    left: 40px;
+    display: inline-block;
+    margin: 0;
+}
+
+#list h2{
+    font-size: 1rem;
+    font-weight: normal;
+    color:#333;
+}
+
+#list .position{
+    border: none;
+    margin:0px 15px;
+}
+
+#list img{
+    width:100%
+}
+
+#list .position p{
+    font-size: .8rem;
+    color: #666;
+}
+
+#list .position span{
+    float: right;
+    color: #ffa028;
+    font-size: .8rem;
+}
+
+.mui-card-header{
+    min-height:100%
+}
+
